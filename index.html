@@ -4,9 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Margrethe By's portfolio.">
+    <script src="https://kit.fontawesome.com/14580da1e1.js" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <title>M. By | Portfolio</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <header>
+        <h2 class="logo"><i class="fa-solid fa-chevron-left"></i><i class="fa-solid fa-chevron-right"></i> M. By</h2>
+        <nav class="nav-mobile hidden-desktop">
+            <ul>
+                <li><a href="#top"><button class="cta-btn">Home</button></a></li>
+                <li><a href="#projects" class="cta-btn"><button class="cta-btn">Projects</button></a></li>
+                <li><a href="#github" class="cta-btn"><button class="cta-btn">GitHub</button></a></li>
+                <li><a href="#about" class="cta-btn"><button class="cta-btn">About</button></a></li>
+                <li><a href="#contact" class="cta-btn"><button class="cta-btn">Contact</button></a></li>
+            </ul>
+            
+        </nav>
+        <nav class="nav-desktop hidden-mobile">
+            <ul>
+                <li><a href="#top"><button class="cta-btn">Home</button></a></li>
+                <li><a href="#projects"><button class="cta-btn">Projects</button></a></li>
+                <li><a href="#github"><button class="cta-btn">GitHub</button></a></li>
+                <li><a href="#about"><button class="cta-btn">About</button></a></li>
+                <li><a href="#contact"><button class="cta-btn">Contact</button></a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
+        <section class="landing-page">
+            <h4><i class="fa-solid fa-chevron-left"></i>name<i class="fa-solid fa-chevron-right"></i></h4>
+            <h1>Margrethe By</h1>
+            <h4><i class="fa-solid fa-chevron-left"></i>/name<i class="fa-solid fa-chevron-right"></i></h4>
+            <h5>I am a frontend developer, and this is my portfolio.</h5>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>These are some of my projects I have been working on since starting the course in Frontend Development at Noroff School of technology and digital media. The newest projects displays first.</p>
+            <section>
+                <h3>SkinUp Blog</h3>
+                <p>This was a five week project exam in the fall of 2022. The assignment was to choose a topic for a blog, design the look of the blog and use HTML, CSS and JavaScript to create it. The assignment also said to create an API to fetch blogposts. </p>
+                <img src="images/skinup-screenshot.jpg" alt="Screenshot of the SkinUp Blog website on a larger screen.">
+                <a href="https://skinup.netlify.app"><button class="cta-btn">View site</button></a>
+                <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-margretheby"><button class="cta-btn">GitHub repo</button></a>
+            </section>
+            <section>
+                <h3>Community Science Museum</h3>
+                <p>This was a four week semester project in the spring of 2022. The assignment was to create a website using HTML and CSS. The brief was about a science museum.</p>
+                <img src="images/CSM screenshot.jpg" alt="Screenshot of the Community Science Museum website on a larger screen.">
+                <a href="https://mbcsm.netlify.app"><button class="cta-btn">View site</button></a>
+                <a href="https://github.com/margretheby/semester-project-1"><button class="cta-btn">GitHub repo</button></a>
+            </section>
+            <section>
+                <h3>Rainydays</h3>
+                <p>This is the cross course project at Noroff, which means it is my first design and coded website since starting the course. The brief I chose was a company selling rain coats.</p>
+                <img src="images/rainydays-screen.jpg" alt="Screenshot of the Rainydays website on a larger screen.">
+                <a href="https://mb-rainydays.netlify.app"><button class="cta-btn">View site</button></a>
+                <a href="https://github.com/Noroff-FEU-Assignments/cross-course-project-margretheby"><button class="cta-btn">GitHub repo</button></a>
+            </section>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <div>
+                <div>
+                    <img class="headshot" src="images/mby.jpg" alt="A picture of me">
+                </div>
+                <div>
+                    <p>30 year old woman living in Oslo. </p>
+                    <p>I have had an interest for coding and designing websites since I was 13 years old. After being a social worker for 7 years, I decided to get back to the web developer ways, and do a frontend course at Noroff. </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you want to get in contact with me, e-mail is the way to go. I will answer you as soon as possible.</p>
+            <a href="mailto:margrethe.developer@gmail.com" class="link">margrethe.developer@gmail.com</a>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="#top">To the top</a>
+            <a href="#projects">Projects</a>
+            <a href="#github">GitHub</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div>
+            <p>© 2022 Margrethe By</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
