@@ -165,9 +165,10 @@ li {
 }
 
 .container img {
-    max-width: 305px;
+    max-width: 302px;
     align-items: center;
     margin: 10px 0px;
+    border: 2px solid #F9D364;
 }
 
 .project-btn button {
