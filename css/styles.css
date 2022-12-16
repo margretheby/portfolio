@@ -237,7 +237,6 @@ footer .link {
         background-image: url("../images/bg-desktop-kopi.jpg");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .landing-page {
@@ -274,4 +273,5 @@ footer .link {
         flex-wrap: wrap;
         flex-direction: row;
     }
+
 }
