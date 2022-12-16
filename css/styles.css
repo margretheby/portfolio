@@ -21,13 +21,14 @@ main > section {
     margin-top: 50px;
 }
 
+
 header {
     background-image: url("../images/bg-mobile.jpg");
     background-position-x: center;
     background-size: cover;
     margin-top: -17px;
     min-height: 700px;
-}
+} 
 
 main, header {
     padding: 0px 10px;
@@ -234,13 +235,17 @@ footer .link {
 
     header {
         background-image: url("../images/bg-desktop-kopi.jpg");
-    }
-
-    .landing-page {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .landing-page {
         height: 800px;
+    }
+
+    .landing-page-bg {
+        background-color: #00000088;
     }
 
     .container img {
