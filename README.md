@@ -3,7 +3,7 @@
 ## Description
 This is my portfolio website.
 
-Link til site: https://mby-portfolio.netlify.app/
+Link to site: https://mby-portfolio.netlify.app/
 
 ## Built with
 - HTML
