@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Margrethe By's portfolio.">
+    <meta name="description" content="Margrethe By, frontend developer based in Oslo.">
     <script src="https://kit.fontawesome.com/14580da1e1.js" crossorigin="anonymous"></script>
     <link href="css/styles.css" rel="stylesheet">
     <title>M. By | Portfolio</title>
@@ -13,7 +13,7 @@
     <header>
         <section class="navigation">
             <div class="nav-container">
-                <label for="checkbox"><i class="fa-solid fa-bars"></i>
+                <label for="checkbox"><i class="fa-solid fa-bars checkbox"></i>
                     <input type="checkbox" id="checkbox" name="checkbox" class="hidden">
                 <nav class="hidden-desktop nav-mobile">
                     <ul>
@@ -52,6 +52,19 @@
         <section id="projects">
             <h2>Projects</h2>
             <p>These are some of the projects I have been working on since starting the course in Frontend Development at Noroff School of technology and digital media. The newest projects displays first.</p>
+            <section class="container">
+                <div>
+                    <h3>BidBox auction</h3>
+                    <p>A five week semester project in the spring of 2023. The assignment was to create a responsive website to an auction house, based on an existing <a href="https://docs.noroff.dev/" class="link">API</a>. Design was optional. The website was made using <span>HTML, CSS and JavaScript</span> to display the data from the API. </p>
+                </div>
+                <div>
+                    <img src="images/screenshot-bidbox.png" alt="Screenshot of the BidBox website on a larger screen.">
+                </div>
+                <div class="project-btn">
+                    <a href="https://margretheby.github.io/semester-project-2/" target="_blank" class="cta-btn">Website</a>
+                    <a href="https://github.com/margretheby/semester-project-2" target="_blank" class="cta-btn">GitHub</a>
+                </div>
+            </section>
             <section class="container">
                 <div>
                     <h3>SkinUp Blog</h3>
@@ -130,6 +143,6 @@
             <p>© 2023 Margrethe By</p>
         </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" type="module"></script>
 </body>
 </html>
