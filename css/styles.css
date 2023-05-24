@@ -43,7 +43,7 @@ h1, h2, h3 {
     margin-top: 19px;
 }
 
-h1, h2, h3, .link, footer a, .fa-bars , span, .header-link{
+h1, h2, h3, .link, footer a, .fa-bars, .fa-xmark, span, .header-link{
     color: #F9D364;
 }
 
@@ -90,7 +90,7 @@ a, .cta-btn {
     margin: 5px 0px;
 }
 
-.fa-bars {
+.fa-bars, .fa-xmark {
     margin-top: 20px;
     font-size: 30px;
 }
