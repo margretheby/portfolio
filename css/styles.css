@@ -116,6 +116,7 @@ a, .cta-btn {
 
 .headshot {
     border-radius: 50%;
+    width: 220px;
 }
 
 .container, .landing-page, footer {
