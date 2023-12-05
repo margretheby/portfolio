@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Poppins:wght@300&family=Noto+Sans&display=swap');
 
 body {
-    background-color: #2c2a2e;
+    background-color: #222222;
     color: #FCFCFA;
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
 }
 
 main {
-    background-color: #2c2a2e;
+    background-color: #222222;
     max-width: 760px;
 }
 
@@ -43,7 +43,7 @@ h1, h2, h3 {
     margin-top: 19px;
 }
 
-h1, h2, h3, .link, footer a, .fa-bars, .fa-xmark, span, .header-link{
+h1, h2, h3, .link, footer a, .fa-bars, .fa-xmark, span {
     color: #F9D364;
 }
 
@@ -60,11 +60,11 @@ h3 {
     font-size: 25px;
 }
 
-.link, p, .header-link, .intro-text {
+.link, p, .intro-text {
     font-size: 16px;
 }
 
-h4, h5, a, .cta-btn, span, .header-link {
+h4, h5, a, .cta-btn, span {
     font-family: 'Menlo', 'Noto Sans', sans-serif;
     font-weight: 100;
 }
@@ -74,7 +74,7 @@ h4, .link:hover, footer a:hover {
 }
 
 a, .cta-btn {
-    color: #2c2a2e;
+    color: #222222;
     text-decoration: none;
     font-size: 16px;
 }
@@ -113,6 +113,10 @@ a, .cta-btn {
     align-items: flex-start;
 }
 
+.nav-mobile ul li a:hover, .nav-desktop ul li a:hover {
+    background-color: #000000;
+}
+
 
 .headshot {
     border-radius: 50%;
@@ -131,7 +135,8 @@ a, .cta-btn {
 .landing-page {
     gap: 0px;
     align-items: left;
-    margin-top: 180px;
+    margin-top: 30px;
+    height: 100vh;
 }
 
 .landing-page h1, .landing-page h4 {
@@ -140,9 +145,17 @@ a, .cta-btn {
 
 .landing-page h1 {
     margin-left: 30px;
+    margin-bottom: 15px;
 }
+
 .landing-page h4 {
     margin-left: 5px;
+}
+
+.intro-text{
+    margin-left: 30px;
+    margin: 5px 0px 5px 30px;
+    max-width: 400px;
 }
 
 header, ul {
@@ -163,7 +176,7 @@ li {
 }
 
 .cta-btn:hover {
-    background-color: #2c2a2e;
+    background-color: #222222;
     color: #78DCE8;
     border: 2px solid #78DCE8;
     cursor: pointer;
@@ -213,13 +226,12 @@ footer .link {
         font-size: 30px;
     }
 
-    .header-name {
+    .header-intro {
         padding-right: 370px;
     }
 
-    .intro-text{
-        margin-left: 30px;
-        max-width: 378px;
+    .header-intro-bottom {
+        padding-top: 13px;
     }
 
     .about {
