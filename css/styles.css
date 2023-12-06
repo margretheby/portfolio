@@ -20,6 +20,29 @@ main > section {
     margin-top: 50px;
 }
 
+header {
+    animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translate3d(0, 0px, 0);
+    }
+    100% {
+        transform: translate3d(0, -10px, 0);
+    }
+}
 
 header {
     background-image: url("../images/bg-mobile.jpg");
@@ -137,6 +160,9 @@ a, .cta-btn {
     align-items: left;
     margin-top: 30px;
     height: 100vh;
+    animation: moveUp ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .landing-page h1, .landing-page h4 {
