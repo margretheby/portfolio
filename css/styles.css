@@ -123,11 +123,10 @@ a, .cta-btn {
 }
 
 .nav-mobile {
-    position: absolute;
-    background-color: #000000;
+    background-color: #000000dd;
+    padding: 0px 30px 20px 10px;
     width: 100%;
     margin-left: -20px;
-
 }
 
 .nav-mobile ul {
@@ -135,11 +134,6 @@ a, .cta-btn {
     flex-direction: column;
     align-items: flex-start;
 }
-
-.nav-mobile ul li a:hover, .nav-desktop ul li a:hover {
-    background-color: #000000;
-}
-
 
 .headshot {
     border-radius: 50%;
@@ -206,6 +200,15 @@ li {
     color: #78DCE8;
     border: 2px solid #78DCE8;
     cursor: pointer;
+}
+
+header .cta-btn {
+    padding: 0px;
+    width: 140px;
+}
+
+header .cta-btn:hover {
+    background-color: #000000!important;
 }
 
 .hidden-mobile, .nav-mobile, .hidden {
@@ -299,6 +302,10 @@ footer .link {
 }
 
 @media (min-width: 1035px) {
+    .logo {
+        margin: 27px 0px 0px 10px;
+    }
+    
     .logo-container {
         order: 1;
     }
