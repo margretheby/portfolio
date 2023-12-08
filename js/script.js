@@ -8,7 +8,6 @@ function checkedBox() {
             hamburgerMenuClose.innerHTML = `<i class="fa-solid fa-bars"></i>`;
         }
     })
-
 } 
 
 checkedBox(); 
